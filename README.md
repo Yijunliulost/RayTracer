@@ -1,5 +1,5 @@
 # RayTracer
-Purpose: is to understand how ray-casting, raytracing, and shaders. Overall: Your project should have the following elements within a 3D world coordinate system for part A, part B and Part C. 
+Purpose: Implementing ray-casting, raytracing, and shaders. Overall: My project have following elements within a 3D world coordinate system for part A, part B and Part C. 
 
 Part A: Implement RayCast class. Implement the part that loops through each pixel row and column and computes the start of each rcth ray and rcth direction based on perspective projection. To calculate the start point and the vector for each rcth ray, use the values for a camera such that it is located 1/2 meter from the origin at (0, 0, 0.5) and be aimed along the negative z-axis. The viewscreen should be centered at the origin; parallel with the x-y plane, and with sides parallel to the x and y-axes. The height of the viewscreen should be 0.4 m, and its aspect ratio is 5/4. You should use perspective projection. Test by rendering very small images. Once the program is working try a higher resolution of at least 750 x 600 pixels and save this image.
 
